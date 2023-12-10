@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: docker-no-plex
-  labels:
+  name: {{ .Values.metadata.name }}
     app: docker-on-plex
 spec:
   replicas: 1
