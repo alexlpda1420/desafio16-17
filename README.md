@@ -1,8 +1,8 @@
-Aplicacion de Plex dockerizada con Kubernetes, Helm y ArgoCD
+Aplicación de Plex dockerizada con Kubernetes, Helm y ArgoCD
 
-Descripcion
+Descripción
 
-Esta aplicacion consiste en tener tu propio "Netflix" donde podras almacenar tus peliculas favoritas, series para ver cuando quieras e incluso armas tus playlist de musica que siempre escuchas
+Esta aplicación consiste en tener tu propio "Netflix" donde podrás almacenar tus películas favoritas, series para ver cuando quieras e incluso armas tus playlist de música que siempre escuchas
 
 Requisitos
 - Docker
@@ -10,19 +10,19 @@ Requisitos
 - Helm
 - ArgoCD
 
-  Configuracion:
+  Configuración:
 
   1. Clonar el repositorio:
  
 git clone https://github.com/alexlpda1420/desafio16-17.git
 
-2. Deployar la aplicacion con Helm
+2. Deploy de la aplicación con Helm
 
 helm install desafio16-17 ./Helm/chart
 
-3. Configurar la aplicacion con ArgoCD
+3. Configurar la aplicación con ArgoCD
 
-Accediendo a la interfaz de ArgoCD y configuraremos la aplicacion para una aplicacion continua y persistente
+Accediendo a la interfaz de ArgoCD y configuraremos la aplicación para una aplicación continua y persistente
 
 Estructura del Proyecto
 
